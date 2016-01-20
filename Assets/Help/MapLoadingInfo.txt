@@ -1,0 +1,5 @@
+Each scene will have a map parent
+The map parent will have a script that uses the scene name to find the tile map information
+The tile map file for each scene will have the references to the necessary 3d objects and their corresponding locations
+The map parent will find this information and will generate the map based off of it.
+The player information is stored in the playerData folder and the map parent will get that and will spawn in the player to the correct location
