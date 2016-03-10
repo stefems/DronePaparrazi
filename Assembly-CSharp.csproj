@@ -45,13 +45,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\ArrangeCubes_Script.cs" />
-     <Compile Include="Assets\Scripts\DroneMovement_Script.cs" />
-     <Compile Include="Assets\Scripts\Drone_Object.cs" />
-     <Compile Include="Assets\Scripts\MapParent_Object.cs" />
+     <Compile Include="Assets\Scripts\Drone\DroneMovement_Script.cs" />
+     <Compile Include="Assets\Scripts\Drone\Drone_Object.cs" />
+     <Compile Include="Assets\Scripts\SceneMaker\ArrangeCubes_Script.cs" />
+     <Compile Include="Assets\Scripts\SceneMaker\ReadGrid_Script.cs" />
      <Compile Include="Assets\Scripts\Tile_Object.cs" />
      <Compile Include="Assets\TileMaps\testLevel_TileMap.cs" />
      <None Include="Assets\Help\MapLoadingInfo.txt" />
+     <None Include="Assets\Grids\testGrid.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
